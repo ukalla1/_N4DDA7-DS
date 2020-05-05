@@ -1,0 +1,23 @@
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: /tools/Xilinx/Vivado/2018.3/bin/unwrapped/lnx64.o/xelab -wto 8419235139dc459ba6e0236d3547a98f --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot ds_top_wrapper_tb_behav xil_defaultlib.ds_top_wrapper_tb xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.freq_sel
+Compiling module xil_defaultlib.mux2_1
+Compiling module xil_defaultlib.freq_sel_wrapper
+Compiling module xil_defaultlib.tri_wave
+Compiling module xil_defaultlib.saw_wave
+Compiling module xil_defaultlib.sqw_wave
+Compiling module xil_defaultlib.tmp_sine
+Compiling module xil_defaultlib.mux
+Compiling module xil_defaultlib.ds_top
+Compiling module xil_defaultlib.rc_tp_dac
+Compiling module xil_defaultlib.ds_top_wrapper
+Compiling module xil_defaultlib.ds_top_wrapper_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot ds_top_wrapper_tb_behav

@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2019.2.1 (64-bit)
+# SW Build 2729669 on Thu Dec  5 04:48:12 MST 2019
+# IP Build 2729494 on Thu Dec  5 07:38:25 MST 2019
+# Start of session at: Wed Apr 29 16:19:36 2020
+# Process ID: 22367
+# Current directory: /home/ukallakuri/hardware_design/designs/N4DDRA7-DS/N4DDRA7-DS/N4DDRA7-DS.sim/sim_1/behav/xsim
+# Command line: wbtcv -mode batch -source /home/ukallakuri/hardware_design/designs/N4DDRA7-DS/N4DDRA7-DS/N4DDRA7-DS.sim/sim_1/behav/xsim/xsim.dir/tri_wave_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: /home/ukallakuri/hardware_design/designs/N4DDRA7-DS/N4DDRA7-DS/N4DDRA7-DS.sim/sim_1/behav/xsim/webtalk.log
+# Journal file: /home/ukallakuri/hardware_design/designs/N4DDRA7-DS/N4DDRA7-DS/N4DDRA7-DS.sim/sim_1/behav/xsim/webtalk.jou
+#-----------------------------------------------------------
+source /home/ukallakuri/hardware_design/designs/N4DDRA7-DS/N4DDRA7-DS/N4DDRA7-DS.sim/sim_1/behav/xsim/xsim.dir/tri_wave_tb_behav/webtalk/xsim_webtalk.tcl -notrace

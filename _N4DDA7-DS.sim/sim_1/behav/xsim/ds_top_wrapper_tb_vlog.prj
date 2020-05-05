@@ -1,0 +1,20 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../_N4DDA7-DS.srcs/sources_1/new/ds_top.v" \
+"../../../../_N4DDA7-DS.srcs/sources_1/new/ds_top_wrapper.v" \
+"../../../../_N4DDA7-DS.srcs/sources_1/new/freq_sel.v" \
+"../../../../_N4DDA7-DS.srcs/sources_1/new/freq_sel_wrapper.v" \
+"../../../../_N4DDA7-DS.srcs/sources_1/new/mux.v" \
+"../../../../_N4DDA7-DS.srcs/sources_1/new/mux2_1.v" \
+"../../../../_N4DDA7-DS.srcs/sources_1/new/rc_tp_dac.v" \
+"../../../../_N4DDA7-DS.srcs/sources_1/new/saw_wave.v" \
+"../../../../_N4DDA7-DS.srcs/sources_1/new/sqw_wave.v" \
+"../../../../_N4DDA7-DS.srcs/sources_1/new/tmp_sine.v" \
+"../../../../_N4DDA7-DS.srcs/sources_1/new/tri_wave.v" \
+"../../../../_N4DDA7-DS.srcs/sim_1/new/ds_top_wrapper_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

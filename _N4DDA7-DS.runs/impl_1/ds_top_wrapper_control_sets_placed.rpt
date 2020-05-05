@@ -1,0 +1,75 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+-------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (lin64) Build 2405991 Thu Dec  6 23:36:41 MST 2018
+| Date         : Tue May  5 10:16:46 2020
+| Host         : ukallakuri-Lenovo-YOGA-910-13IKB running 64-bit Ubuntu 18.04.4 LTS
+| Command      : report_control_sets -verbose -file ds_top_wrapper_control_sets_placed.rpt
+| Design       : ds_top_wrapper
+| Device       : xc7a100t
+-------------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |     8 |
+| Unused register locations in slices containing registers |    28 |
++----------------------------------------------------------+-------+
+
+
+2. Histogram
+------------
+
++--------+--------------+
+| Fanout | Control Sets |
++--------+--------------+
+|      1 |            1 |
+|      8 |            1 |
+|     13 |            1 |
+|    16+ |            5 |
++--------+--------------+
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              13 |            5 |
+| No           | No                    | Yes                    |               8 |            3 |
+| No           | Yes                   | No                     |             175 |           51 |
+| Yes          | No                    | No                     |               0 |            0 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |              48 |           14 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++------------------------+---------------+-----------------------------------------+------------------+----------------+
+|      Clock Signal      | Enable Signal |             Set/Reset Signal            | Slice Load Count | Bel Load Count |
++------------------------+---------------+-----------------------------------------+------------------+----------------+
+|  clk_IBUF_BUFG         |               | tp_dac/pwm_out_int_reg0                 |                1 |              1 |
+|  dig_wave_gen/sqw/flag |               | rst_IBUF                                |                3 |              8 |
+|  clk_IBUF_BUFG         |               |                                         |                5 |             13 |
+|  clk_IBUF_BUFG         |               | dig_wave_gen/sw/counter[19]_i_1__0_n_0  |                6 |             20 |
+|  clk_IBUF_BUFG         |               | dig_wave_gen/sqw/counter[19]_i_1__1_n_0 |                6 |             20 |
+|  clk_IBUF_BUFG         |               | dig_wave_gen/tw/counter[19]_i_1_n_0     |                6 |             20 |
+|  clk_IBUF_BUFG         | rst_IBUF      | rst_IBUF                                |               14 |             48 |
+|  clk_IBUF_BUFG         |               | rst_IBUF                                |               32 |            114 |
++------------------------+---------------+-----------------------------------------+------------------+----------------+
+
+

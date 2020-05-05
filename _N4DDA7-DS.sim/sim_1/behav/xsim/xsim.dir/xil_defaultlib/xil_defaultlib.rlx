@@ -1,0 +1,17 @@
+0.6
+2018.3
+Dec  6 2018
+23:39:36
+/home/ukallakuri/hardware_design/designs/_N4DDA7-DS/_N4DDA7-DS.sim/sim_1/behav/xsim/glbl.v,1573089660,verilog,,,,glbl,,,,,,,,
+/home/ukallakuri/hardware_design/designs/_N4DDA7-DS/_N4DDA7-DS.srcs/sim_1/new/ds_top_wrapper_tb.v,1588615129,verilog,,,,ds_top_wrapper_tb,,,,,,,,
+/home/ukallakuri/hardware_design/designs/_N4DDA7-DS/_N4DDA7-DS.srcs/sources_1/new/ds_top.v,1588682480,verilog,,/home/ukallakuri/hardware_design/designs/_N4DDA7-DS/_N4DDA7-DS.srcs/sources_1/new/ds_top_wrapper.v,,ds_top,,,,,,,,
+/home/ukallakuri/hardware_design/designs/_N4DDA7-DS/_N4DDA7-DS.srcs/sources_1/new/ds_top_wrapper.v,1588683325,verilog,,/home/ukallakuri/hardware_design/designs/_N4DDA7-DS/_N4DDA7-DS.srcs/sources_1/new/freq_sel.v,,ds_top_wrapper,,,,,,,,
+/home/ukallakuri/hardware_design/designs/_N4DDA7-DS/_N4DDA7-DS.srcs/sources_1/new/freq_sel.v,1588186403,verilog,,/home/ukallakuri/hardware_design/designs/_N4DDA7-DS/_N4DDA7-DS.srcs/sources_1/new/freq_sel_wrapper.v,,freq_sel,,,,,,,,
+/home/ukallakuri/hardware_design/designs/_N4DDA7-DS/_N4DDA7-DS.srcs/sources_1/new/freq_sel_wrapper.v,1588181190,verilog,,/home/ukallakuri/hardware_design/designs/_N4DDA7-DS/_N4DDA7-DS.srcs/sources_1/new/mux.v,,freq_sel_wrapper,,,,,,,,
+/home/ukallakuri/hardware_design/designs/_N4DDA7-DS/_N4DDA7-DS.srcs/sources_1/new/mux.v,1588682468,verilog,,/home/ukallakuri/hardware_design/designs/_N4DDA7-DS/_N4DDA7-DS.srcs/sources_1/new/mux2_1.v,,mux,,,,,,,,
+/home/ukallakuri/hardware_design/designs/_N4DDA7-DS/_N4DDA7-DS.srcs/sources_1/new/mux2_1.v,1588181179,verilog,,/home/ukallakuri/hardware_design/designs/_N4DDA7-DS/_N4DDA7-DS.srcs/sources_1/new/rc_tp_dac.v,,mux2_1,,,,,,,,
+/home/ukallakuri/hardware_design/designs/_N4DDA7-DS/_N4DDA7-DS.srcs/sources_1/new/rc_tp_dac.v,1588216356,verilog,,/home/ukallakuri/hardware_design/designs/_N4DDA7-DS/_N4DDA7-DS.srcs/sources_1/new/saw_wave.v,,rc_tp_dac,,,,,,,,
+/home/ukallakuri/hardware_design/designs/_N4DDA7-DS/_N4DDA7-DS.srcs/sources_1/new/saw_wave.v,1588263919,verilog,,/home/ukallakuri/hardware_design/designs/_N4DDA7-DS/_N4DDA7-DS.srcs/sources_1/new/sqw_wave.v,,saw_wave,,,,,,,,
+/home/ukallakuri/hardware_design/designs/_N4DDA7-DS/_N4DDA7-DS.srcs/sources_1/new/sqw_wave.v,1588263848,verilog,,/home/ukallakuri/hardware_design/designs/_N4DDA7-DS/_N4DDA7-DS.srcs/sources_1/new/tmp_sine.v,,sqw_wave,,,,,,,,
+/home/ukallakuri/hardware_design/designs/_N4DDA7-DS/_N4DDA7-DS.srcs/sources_1/new/tmp_sine.v,1588265408,verilog,,/home/ukallakuri/hardware_design/designs/_N4DDA7-DS/_N4DDA7-DS.srcs/sources_1/new/tri_wave.v,,tmp_sine,,,,,,,,
+/home/ukallakuri/hardware_design/designs/_N4DDA7-DS/_N4DDA7-DS.srcs/sources_1/new/tri_wave.v,1588263883,verilog,,/home/ukallakuri/hardware_design/designs/_N4DDA7-DS/_N4DDA7-DS.srcs/sim_1/new/ds_top_wrapper_tb.v,,tri_wave,,,,,,,,
