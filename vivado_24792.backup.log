@@ -1,0 +1,671 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Mon May 11 11:09:04 2020
+# Process ID: 24792
+# Current directory: /home/ukallakuri/hardware_design/designs/_N4DDA7-DS
+# Command line: vivado
+# Log file: /home/ukallakuri/hardware_design/designs/_N4DDA7-DS/vivado.log
+# Journal file: /home/ukallakuri/hardware_design/designs/_N4DDA7-DS/vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project /home/ukallakuri/hardware_design/designs/_N4DDA7-DS/_N4DDA7-DS.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/tools/Xilinx/Vivado/2018.3/data/ip'.
+update_compile_order -fileset sources_1
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in '/home/ukallakuri/hardware_design/designs/_N4DDA7-DS/_N4DDA7-DS.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'ds_top_wrapper_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in '/home/ukallakuri/hardware_design/designs/_N4DDA7-DS/_N4DDA7-DS.sim/sim_1/behav/xsim'
+xvlog --incr --relax -prj ds_top_wrapper_tb_vlog.prj
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ukallakuri/hardware_design/designs/_N4DDA7-DS/_N4DDA7-DS.srcs/sources_1/new/dp_r_b.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dp_r_b
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ukallakuri/hardware_design/designs/_N4DDA7-DS/_N4DDA7-DS.srcs/sources_1/new/ds_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ds_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ukallakuri/hardware_design/designs/_N4DDA7-DS/_N4DDA7-DS.srcs/sources_1/new/ds_top_wrapper.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ds_top_wrapper
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ukallakuri/hardware_design/designs/_N4DDA7-DS/_N4DDA7-DS.srcs/sources_1/new/echo_m.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module echo_m
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ukallakuri/hardware_design/designs/_N4DDA7-DS/_N4DDA7-DS.srcs/sources_1/new/freq_sel.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module freq_sel
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ukallakuri/hardware_design/designs/_N4DDA7-DS/_N4DDA7-DS.srcs/sources_1/new/freq_sel_wrapper.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module freq_sel_wrapper
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ukallakuri/hardware_design/designs/_N4DDA7-DS/_N4DDA7-DS.srcs/sources_1/new/mux.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ukallakuri/hardware_design/designs/_N4DDA7-DS/_N4DDA7-DS.srcs/sources_1/new/mux21.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux21
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ukallakuri/hardware_design/designs/_N4DDA7-DS/_N4DDA7-DS.srcs/sources_1/new/mux2_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux2_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ukallakuri/hardware_design/designs/_N4DDA7-DS/_N4DDA7-DS.srcs/sources_1/new/rc_tp_dac.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module rc_tp_dac
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ukallakuri/hardware_design/designs/_N4DDA7-DS/_N4DDA7-DS.srcs/sources_1/new/saw_wave.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module saw_wave
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ukallakuri/hardware_design/designs/_N4DDA7-DS/_N4DDA7-DS.srcs/sources_1/new/sqw_wave.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sqw_wave
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ukallakuri/hardware_design/designs/_N4DDA7-DS/_N4DDA7-DS.srcs/sources_1/new/tri_wave.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tri_wave
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ukallakuri/hardware_design/designs/_N4DDA7-DS/_N4DDA7-DS.srcs/sim_1/new/ds_top_wrapper_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ds_top_wrapper_tb
+INFO: [USF-XSim-69] 'compile' step finished in '0' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in '/home/ukallakuri/hardware_design/designs/_N4DDA7-DS/_N4DDA7-DS.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: /tools/Xilinx/Vivado/2018.3/bin/unwrapped/lnx64.o/xelab -wto 8419235139dc459ba6e0236d3547a98f --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot ds_top_wrapper_tb_behav xil_defaultlib.ds_top_wrapper_tb xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.freq_sel
+Compiling module xil_defaultlib.mux2_1
+Compiling module xil_defaultlib.freq_sel_wrapper
+Compiling module xil_defaultlib.tri_wave
+Compiling module xil_defaultlib.saw_wave
+Compiling module xil_defaultlib.sqw_wave
+Compiling module xil_defaultlib.mux
+Compiling module xil_defaultlib.ds_top
+Compiling module xil_defaultlib.dp_r_b
+Compiling module xil_defaultlib.echo_m
+Compiling module xil_defaultlib.mux21
+Compiling module xil_defaultlib.rc_tp_dac
+Compiling module xil_defaultlib.ds_top_wrapper
+Compiling module xil_defaultlib.ds_top_wrapper_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot ds_top_wrapper_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in '/home/ukallakuri/hardware_design/designs/_N4DDA7-DS/_N4DDA7-DS.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "ds_top_wrapper_tb_behav -key {Behavioral:sim_1:Functional:ds_top_wrapper_tb} -tclbatch {ds_top_wrapper_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+source ds_top_wrapper_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'ds_top_wrapper_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:11 ; elapsed = 00:00:06 . Memory (MB): peak = 6471.633 ; gain = 70.844 ; free physical = 2061 ; free virtual = 5722
+run all
+$finish called at time : 1500020 ns : File "/home/ukallakuri/hardware_design/designs/_N4DDA7-DS/_N4DDA7-DS.srcs/sim_1/new/ds_top_wrapper_tb.v" Line 77
+relaunch_sim
+INFO: [Vivado 12-5682] Launching behavioral simulation in '/home/ukallakuri/hardware_design/designs/_N4DDA7-DS/_N4DDA7-DS.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'ds_top_wrapper_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in '/home/ukallakuri/hardware_design/designs/_N4DDA7-DS/_N4DDA7-DS.sim/sim_1/behav/xsim'
+xvlog --incr --relax -prj ds_top_wrapper_tb_vlog.prj
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ukallakuri/hardware_design/designs/_N4DDA7-DS/_N4DDA7-DS.srcs/sources_1/new/dp_r_b.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dp_r_b
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ukallakuri/hardware_design/designs/_N4DDA7-DS/_N4DDA7-DS.srcs/sources_1/new/ds_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ds_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ukallakuri/hardware_design/designs/_N4DDA7-DS/_N4DDA7-DS.srcs/sources_1/new/ds_top_wrapper.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ds_top_wrapper
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ukallakuri/hardware_design/designs/_N4DDA7-DS/_N4DDA7-DS.srcs/sources_1/new/echo_m.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module echo_m
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ukallakuri/hardware_design/designs/_N4DDA7-DS/_N4DDA7-DS.srcs/sources_1/new/freq_sel.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module freq_sel
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ukallakuri/hardware_design/designs/_N4DDA7-DS/_N4DDA7-DS.srcs/sources_1/new/freq_sel_wrapper.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module freq_sel_wrapper
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ukallakuri/hardware_design/designs/_N4DDA7-DS/_N4DDA7-DS.srcs/sources_1/new/mux.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ukallakuri/hardware_design/designs/_N4DDA7-DS/_N4DDA7-DS.srcs/sources_1/new/mux21.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux21
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ukallakuri/hardware_design/designs/_N4DDA7-DS/_N4DDA7-DS.srcs/sources_1/new/mux2_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux2_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ukallakuri/hardware_design/designs/_N4DDA7-DS/_N4DDA7-DS.srcs/sources_1/new/rc_tp_dac.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module rc_tp_dac
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ukallakuri/hardware_design/designs/_N4DDA7-DS/_N4DDA7-DS.srcs/sources_1/new/saw_wave.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module saw_wave
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ukallakuri/hardware_design/designs/_N4DDA7-DS/_N4DDA7-DS.srcs/sources_1/new/sqw_wave.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sqw_wave
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ukallakuri/hardware_design/designs/_N4DDA7-DS/_N4DDA7-DS.srcs/sources_1/new/tri_wave.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tri_wave
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ukallakuri/hardware_design/designs/_N4DDA7-DS/_N4DDA7-DS.srcs/sim_1/new/ds_top_wrapper_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ds_top_wrapper_tb
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [Vivado 12-5682] Launching behavioral simulation in '/home/ukallakuri/hardware_design/designs/_N4DDA7-DS/_N4DDA7-DS.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in '/home/ukallakuri/hardware_design/designs/_N4DDA7-DS/_N4DDA7-DS.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: /tools/Xilinx/Vivado/2018.3/bin/unwrapped/lnx64.o/xelab -wto 8419235139dc459ba6e0236d3547a98f --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot ds_top_wrapper_tb_behav xil_defaultlib.ds_top_wrapper_tb xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.freq_sel
+Compiling module xil_defaultlib.mux2_1
+Compiling module xil_defaultlib.freq_sel_wrapper
+Compiling module xil_defaultlib.tri_wave
+Compiling module xil_defaultlib.saw_wave
+Compiling module xil_defaultlib.sqw_wave
+Compiling module xil_defaultlib.mux
+Compiling module xil_defaultlib.ds_top
+Compiling module xil_defaultlib.dp_r_b
+Compiling module xil_defaultlib.echo_m
+Compiling module xil_defaultlib.mux21
+Compiling module xil_defaultlib.rc_tp_dac
+Compiling module xil_defaultlib.ds_top_wrapper
+Compiling module xil_defaultlib.ds_top_wrapper_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot ds_top_wrapper_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+run all
+$finish called at time : 1500020 ns : File "/home/ukallakuri/hardware_design/designs/_N4DDA7-DS/_N4DDA7-DS.srcs/sim_1/new/ds_top_wrapper_tb.v" Line 77
+relaunch_sim
+INFO: [Vivado 12-5682] Launching behavioral simulation in '/home/ukallakuri/hardware_design/designs/_N4DDA7-DS/_N4DDA7-DS.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'ds_top_wrapper_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in '/home/ukallakuri/hardware_design/designs/_N4DDA7-DS/_N4DDA7-DS.sim/sim_1/behav/xsim'
+xvlog --incr --relax -prj ds_top_wrapper_tb_vlog.prj
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ukallakuri/hardware_design/designs/_N4DDA7-DS/_N4DDA7-DS.srcs/sources_1/new/dp_r_b.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dp_r_b
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ukallakuri/hardware_design/designs/_N4DDA7-DS/_N4DDA7-DS.srcs/sources_1/new/ds_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ds_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ukallakuri/hardware_design/designs/_N4DDA7-DS/_N4DDA7-DS.srcs/sources_1/new/ds_top_wrapper.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ds_top_wrapper
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ukallakuri/hardware_design/designs/_N4DDA7-DS/_N4DDA7-DS.srcs/sources_1/new/echo_m.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module echo_m
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ukallakuri/hardware_design/designs/_N4DDA7-DS/_N4DDA7-DS.srcs/sources_1/new/freq_sel.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module freq_sel
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ukallakuri/hardware_design/designs/_N4DDA7-DS/_N4DDA7-DS.srcs/sources_1/new/freq_sel_wrapper.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module freq_sel_wrapper
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ukallakuri/hardware_design/designs/_N4DDA7-DS/_N4DDA7-DS.srcs/sources_1/new/mux.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ukallakuri/hardware_design/designs/_N4DDA7-DS/_N4DDA7-DS.srcs/sources_1/new/mux21.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux21
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ukallakuri/hardware_design/designs/_N4DDA7-DS/_N4DDA7-DS.srcs/sources_1/new/mux2_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux2_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ukallakuri/hardware_design/designs/_N4DDA7-DS/_N4DDA7-DS.srcs/sources_1/new/rc_tp_dac.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module rc_tp_dac
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ukallakuri/hardware_design/designs/_N4DDA7-DS/_N4DDA7-DS.srcs/sources_1/new/saw_wave.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module saw_wave
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ukallakuri/hardware_design/designs/_N4DDA7-DS/_N4DDA7-DS.srcs/sources_1/new/sqw_wave.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sqw_wave
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ukallakuri/hardware_design/designs/_N4DDA7-DS/_N4DDA7-DS.srcs/sources_1/new/tri_wave.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tri_wave
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ukallakuri/hardware_design/designs/_N4DDA7-DS/_N4DDA7-DS.srcs/sim_1/new/ds_top_wrapper_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ds_top_wrapper_tb
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [Vivado 12-5682] Launching behavioral simulation in '/home/ukallakuri/hardware_design/designs/_N4DDA7-DS/_N4DDA7-DS.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in '/home/ukallakuri/hardware_design/designs/_N4DDA7-DS/_N4DDA7-DS.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: /tools/Xilinx/Vivado/2018.3/bin/unwrapped/lnx64.o/xelab -wto 8419235139dc459ba6e0236d3547a98f --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot ds_top_wrapper_tb_behav xil_defaultlib.ds_top_wrapper_tb xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.freq_sel
+Compiling module xil_defaultlib.mux2_1
+Compiling module xil_defaultlib.freq_sel_wrapper
+Compiling module xil_defaultlib.tri_wave
+Compiling module xil_defaultlib.saw_wave
+Compiling module xil_defaultlib.sqw_wave
+Compiling module xil_defaultlib.mux
+Compiling module xil_defaultlib.ds_top
+Compiling module xil_defaultlib.dp_r_b
+Compiling module xil_defaultlib.echo_m
+Compiling module xil_defaultlib.mux21
+Compiling module xil_defaultlib.rc_tp_dac
+Compiling module xil_defaultlib.ds_top_wrapper
+Compiling module xil_defaultlib.ds_top_wrapper_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot ds_top_wrapper_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+run all
+$finish called at time : 1500020 ns : File "/home/ukallakuri/hardware_design/designs/_N4DDA7-DS/_N4DDA7-DS.srcs/sim_1/new/ds_top_wrapper_tb.v" Line 77
+relaunch_sim
+INFO: [Vivado 12-5682] Launching behavioral simulation in '/home/ukallakuri/hardware_design/designs/_N4DDA7-DS/_N4DDA7-DS.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'ds_top_wrapper_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in '/home/ukallakuri/hardware_design/designs/_N4DDA7-DS/_N4DDA7-DS.sim/sim_1/behav/xsim'
+xvlog --incr --relax -prj ds_top_wrapper_tb_vlog.prj
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ukallakuri/hardware_design/designs/_N4DDA7-DS/_N4DDA7-DS.srcs/sources_1/new/dp_r_b.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dp_r_b
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ukallakuri/hardware_design/designs/_N4DDA7-DS/_N4DDA7-DS.srcs/sources_1/new/ds_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ds_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ukallakuri/hardware_design/designs/_N4DDA7-DS/_N4DDA7-DS.srcs/sources_1/new/ds_top_wrapper.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ds_top_wrapper
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ukallakuri/hardware_design/designs/_N4DDA7-DS/_N4DDA7-DS.srcs/sources_1/new/echo_m.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module echo_m
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ukallakuri/hardware_design/designs/_N4DDA7-DS/_N4DDA7-DS.srcs/sources_1/new/freq_sel.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module freq_sel
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ukallakuri/hardware_design/designs/_N4DDA7-DS/_N4DDA7-DS.srcs/sources_1/new/freq_sel_wrapper.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module freq_sel_wrapper
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ukallakuri/hardware_design/designs/_N4DDA7-DS/_N4DDA7-DS.srcs/sources_1/new/mux.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ukallakuri/hardware_design/designs/_N4DDA7-DS/_N4DDA7-DS.srcs/sources_1/new/mux21.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux21
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ukallakuri/hardware_design/designs/_N4DDA7-DS/_N4DDA7-DS.srcs/sources_1/new/mux2_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux2_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ukallakuri/hardware_design/designs/_N4DDA7-DS/_N4DDA7-DS.srcs/sources_1/new/rc_tp_dac.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module rc_tp_dac
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ukallakuri/hardware_design/designs/_N4DDA7-DS/_N4DDA7-DS.srcs/sources_1/new/saw_wave.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module saw_wave
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ukallakuri/hardware_design/designs/_N4DDA7-DS/_N4DDA7-DS.srcs/sources_1/new/sqw_wave.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sqw_wave
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ukallakuri/hardware_design/designs/_N4DDA7-DS/_N4DDA7-DS.srcs/sources_1/new/tri_wave.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tri_wave
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ukallakuri/hardware_design/designs/_N4DDA7-DS/_N4DDA7-DS.srcs/sim_1/new/ds_top_wrapper_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ds_top_wrapper_tb
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [Vivado 12-5682] Launching behavioral simulation in '/home/ukallakuri/hardware_design/designs/_N4DDA7-DS/_N4DDA7-DS.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in '/home/ukallakuri/hardware_design/designs/_N4DDA7-DS/_N4DDA7-DS.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: /tools/Xilinx/Vivado/2018.3/bin/unwrapped/lnx64.o/xelab -wto 8419235139dc459ba6e0236d3547a98f --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot ds_top_wrapper_tb_behav xil_defaultlib.ds_top_wrapper_tb xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.freq_sel
+Compiling module xil_defaultlib.mux2_1
+Compiling module xil_defaultlib.freq_sel_wrapper
+Compiling module xil_defaultlib.tri_wave
+Compiling module xil_defaultlib.saw_wave
+Compiling module xil_defaultlib.sqw_wave
+Compiling module xil_defaultlib.mux
+Compiling module xil_defaultlib.ds_top
+Compiling module xil_defaultlib.dp_r_b
+Compiling module xil_defaultlib.echo_m
+Compiling module xil_defaultlib.mux21
+Compiling module xil_defaultlib.rc_tp_dac
+Compiling module xil_defaultlib.ds_top_wrapper
+Compiling module xil_defaultlib.ds_top_wrapper_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot ds_top_wrapper_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+run all
+$finish called at time : 1500020 ns : File "/home/ukallakuri/hardware_design/designs/_N4DDA7-DS/_N4DDA7-DS.srcs/sim_1/new/ds_top_wrapper_tb.v" Line 77
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+reset_run synth_1
+launch_runs impl_1 -jobs 2
+[Mon May 11 11:12:29 2020] Launched synth_1...
+Run output will be captured here: /home/ukallakuri/hardware_design/designs/_N4DDA7-DS/_N4DDA7-DS.runs/synth_1/runme.log
+[Mon May 11 11:12:29 2020] Launched impl_1...
+Run output will be captured here: /home/ukallakuri/hardware_design/designs/_N4DDA7-DS/_N4DDA7-DS.runs/impl_1/runme.log
+open_run impl_1
+INFO: [Netlist 29-17] Analyzing 71 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2018.3
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:00.03 ; elapsed = 00:00:00.03 . Memory (MB): peak = 7176.910 ; gain = 0.000 ; free physical = 1299 ; free virtual = 4959
+Restored from archive | CPU: 0.030000 secs | Memory: 0.605896 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00.03 ; elapsed = 00:00:00.04 . Memory (MB): peak = 7176.910 ; gain = 0.000 ; free physical = 1299 ; free virtual = 4959
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 7176.910 ; gain = 0.000 ; free physical = 1300 ; free virtual = 4960
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+open_run: Time (s): cpu = 00:00:35 ; elapsed = 00:00:17 . Memory (MB): peak = 7337.676 ; gain = 806.355 ; free physical = 1214 ; free virtual = 4875
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+[Mon May 11 11:15:03 2020] Launched impl_1...
+Run output will be captured here: /home/ukallakuri/hardware_design/designs/_N4DDA7-DS/_N4DDA7-DS.runs/impl_1/runme.log
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2018.3
+  **** Build date : Dec  6 2018-23:53:53
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210292A6E470A
+set_property PROGRAM.FILE {/home/ukallakuri/hardware_design/designs/_N4DDA7-DS/_N4DDA7-DS.runs/impl_1/ds_top_wrapper.bit} [get_hw_devices xc7a100t_0]
+current_hw_device [get_hw_devices xc7a100t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {/home/ukallakuri/hardware_design/designs/_N4DDA7-DS/_N4DDA7-DS.runs/impl_1/ds_top_wrapper.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+close_hw
+close_design
+close [ open /home/ukallakuri/hardware_design/designs/_N4DDA7-DS/_N4DDA7-DS.srcs/sources_1/new/freq_cntrl.v w ]
+add_files /home/ukallakuri/hardware_design/designs/_N4DDA7-DS/_N4DDA7-DS.srcs/sources_1/new/freq_cntrl.v
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in '/home/ukallakuri/hardware_design/designs/_N4DDA7-DS/_N4DDA7-DS.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'ds_top_wrapper_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in '/home/ukallakuri/hardware_design/designs/_N4DDA7-DS/_N4DDA7-DS.sim/sim_1/behav/xsim'
+xvlog --incr --relax -prj ds_top_wrapper_tb_vlog.prj
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ukallakuri/hardware_design/designs/_N4DDA7-DS/_N4DDA7-DS.srcs/sources_1/new/dp_r_b.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dp_r_b
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ukallakuri/hardware_design/designs/_N4DDA7-DS/_N4DDA7-DS.srcs/sources_1/new/ds_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ds_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ukallakuri/hardware_design/designs/_N4DDA7-DS/_N4DDA7-DS.srcs/sources_1/new/ds_top_wrapper.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ds_top_wrapper
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ukallakuri/hardware_design/designs/_N4DDA7-DS/_N4DDA7-DS.srcs/sources_1/new/echo_m.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module echo_m
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ukallakuri/hardware_design/designs/_N4DDA7-DS/_N4DDA7-DS.srcs/sources_1/new/freq_cntrl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module freq_cntrl
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ukallakuri/hardware_design/designs/_N4DDA7-DS/_N4DDA7-DS.srcs/sources_1/new/mux.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ukallakuri/hardware_design/designs/_N4DDA7-DS/_N4DDA7-DS.srcs/sources_1/new/mux21.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux21
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ukallakuri/hardware_design/designs/_N4DDA7-DS/_N4DDA7-DS.srcs/sources_1/new/rc_tp_dac.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module rc_tp_dac
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ukallakuri/hardware_design/designs/_N4DDA7-DS/_N4DDA7-DS.srcs/sources_1/new/saw_wave.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module saw_wave
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ukallakuri/hardware_design/designs/_N4DDA7-DS/_N4DDA7-DS.srcs/sources_1/new/sqw_wave.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sqw_wave
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ukallakuri/hardware_design/designs/_N4DDA7-DS/_N4DDA7-DS.srcs/sources_1/new/tri_wave.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tri_wave
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ukallakuri/hardware_design/designs/_N4DDA7-DS/_N4DDA7-DS.srcs/sim_1/new/ds_top_wrapper_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ds_top_wrapper_tb
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in '/home/ukallakuri/hardware_design/designs/_N4DDA7-DS/_N4DDA7-DS.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: /tools/Xilinx/Vivado/2018.3/bin/unwrapped/lnx64.o/xelab -wto 8419235139dc459ba6e0236d3547a98f --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot ds_top_wrapper_tb_behav xil_defaultlib.ds_top_wrapper_tb xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.freq_cntrl
+Compiling module xil_defaultlib.tri_wave
+Compiling module xil_defaultlib.saw_wave
+Compiling module xil_defaultlib.sqw_wave
+Compiling module xil_defaultlib.mux
+Compiling module xil_defaultlib.ds_top
+Compiling module xil_defaultlib.dp_r_b
+Compiling module xil_defaultlib.echo_m
+Compiling module xil_defaultlib.mux21
+Compiling module xil_defaultlib.rc_tp_dac
+Compiling module xil_defaultlib.ds_top_wrapper
+Compiling module xil_defaultlib.ds_top_wrapper_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot ds_top_wrapper_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in '/home/ukallakuri/hardware_design/designs/_N4DDA7-DS/_N4DDA7-DS.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "ds_top_wrapper_tb_behav -key {Behavioral:sim_1:Functional:ds_top_wrapper_tb} -tclbatch {ds_top_wrapper_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+source ds_top_wrapper_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'ds_top_wrapper_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in '/home/ukallakuri/hardware_design/designs/_N4DDA7-DS/_N4DDA7-DS.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'ds_top_wrapper_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in '/home/ukallakuri/hardware_design/designs/_N4DDA7-DS/_N4DDA7-DS.sim/sim_1/behav/xsim'
+xvlog --incr --relax -prj ds_top_wrapper_tb_vlog.prj
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ukallakuri/hardware_design/designs/_N4DDA7-DS/_N4DDA7-DS.srcs/sources_1/new/dp_r_b.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dp_r_b
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ukallakuri/hardware_design/designs/_N4DDA7-DS/_N4DDA7-DS.srcs/sources_1/new/ds_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ds_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ukallakuri/hardware_design/designs/_N4DDA7-DS/_N4DDA7-DS.srcs/sources_1/new/ds_top_wrapper.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ds_top_wrapper
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ukallakuri/hardware_design/designs/_N4DDA7-DS/_N4DDA7-DS.srcs/sources_1/new/echo_m.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module echo_m
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ukallakuri/hardware_design/designs/_N4DDA7-DS/_N4DDA7-DS.srcs/sources_1/new/freq_cntrl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module freq_cntrl
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ukallakuri/hardware_design/designs/_N4DDA7-DS/_N4DDA7-DS.srcs/sources_1/new/mux.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ukallakuri/hardware_design/designs/_N4DDA7-DS/_N4DDA7-DS.srcs/sources_1/new/mux21.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux21
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ukallakuri/hardware_design/designs/_N4DDA7-DS/_N4DDA7-DS.srcs/sources_1/new/rc_tp_dac.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module rc_tp_dac
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ukallakuri/hardware_design/designs/_N4DDA7-DS/_N4DDA7-DS.srcs/sources_1/new/saw_wave.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module saw_wave
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ukallakuri/hardware_design/designs/_N4DDA7-DS/_N4DDA7-DS.srcs/sources_1/new/sqw_wave.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sqw_wave
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ukallakuri/hardware_design/designs/_N4DDA7-DS/_N4DDA7-DS.srcs/sources_1/new/tri_wave.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tri_wave
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ukallakuri/hardware_design/designs/_N4DDA7-DS/_N4DDA7-DS.srcs/sim_1/new/ds_top_wrapper_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ds_top_wrapper_tb
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in '/home/ukallakuri/hardware_design/designs/_N4DDA7-DS/_N4DDA7-DS.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: /tools/Xilinx/Vivado/2018.3/bin/unwrapped/lnx64.o/xelab -wto 8419235139dc459ba6e0236d3547a98f --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot ds_top_wrapper_tb_behav xil_defaultlib.ds_top_wrapper_tb xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.freq_cntrl
+Compiling module xil_defaultlib.tri_wave
+Compiling module xil_defaultlib.saw_wave
+Compiling module xil_defaultlib.sqw_wave
+Compiling module xil_defaultlib.mux
+Compiling module xil_defaultlib.ds_top
+Compiling module xil_defaultlib.dp_r_b
+Compiling module xil_defaultlib.echo_m
+Compiling module xil_defaultlib.mux21
+Compiling module xil_defaultlib.rc_tp_dac
+Compiling module xil_defaultlib.ds_top_wrapper
+Compiling module xil_defaultlib.ds_top_wrapper_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot ds_top_wrapper_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in '/home/ukallakuri/hardware_design/designs/_N4DDA7-DS/_N4DDA7-DS.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "ds_top_wrapper_tb_behav -key {Behavioral:sim_1:Functional:ds_top_wrapper_tb} -tclbatch {ds_top_wrapper_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+source ds_top_wrapper_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'ds_top_wrapper_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+run all
+$finish called at time : 1691660 ns : File "/home/ukallakuri/hardware_design/designs/_N4DDA7-DS/_N4DDA7-DS.srcs/sim_1/new/ds_top_wrapper_tb.v" Line 116
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+[Mon May 11 12:51:47 2020] Launched synth_1...
+Run output will be captured here: /home/ukallakuri/hardware_design/designs/_N4DDA7-DS/_N4DDA7-DS.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+[Mon May 11 12:53:43 2020] Launched synth_1...
+Run output will be captured here: /home/ukallakuri/hardware_design/designs/_N4DDA7-DS/_N4DDA7-DS.runs/synth_1/runme.log
+synth_design -rtl -name rtl_1
+Command: synth_design -rtl -name rtl_1
+Starting synth_design
+Using part: xc7a100tcsg324-1
+Top: ds_top_wrapper
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 8422.527 ; gain = 0.000 ; free physical = 663 ; free virtual = 4064
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'ds_top_wrapper' [/home/ukallakuri/hardware_design/designs/_N4DDA7-DS/_N4DDA7-DS.srcs/sources_1/new/ds_top_wrapper.v:8]
+INFO: [Synth 8-6157] synthesizing module 'ds_top' [/home/ukallakuri/hardware_design/designs/_N4DDA7-DS/_N4DDA7-DS.srcs/sources_1/new/ds_top.v:8]
+INFO: [Synth 8-6157] synthesizing module 'freq_cntrl' [/home/ukallakuri/hardware_design/designs/_N4DDA7-DS/_N4DDA7-DS.srcs/sources_1/new/freq_cntrl.v:8]
+	Parameter init_freq bound to: 500000 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'freq_cntrl' (1#1) [/home/ukallakuri/hardware_design/designs/_N4DDA7-DS/_N4DDA7-DS.srcs/sources_1/new/freq_cntrl.v:8]
+INFO: [Synth 8-6157] synthesizing module 'tri_wave' [/home/ukallakuri/hardware_design/designs/_N4DDA7-DS/_N4DDA7-DS.srcs/sources_1/new/tri_wave.v:8]
+INFO: [Synth 8-5534] Detected attribute (* keep = "true" *) [/home/ukallakuri/hardware_design/designs/_N4DDA7-DS/_N4DDA7-DS.srcs/sources_1/new/tri_wave.v:15]
+INFO: [Synth 8-5534] Detected attribute (* keep = "true" *) [/home/ukallakuri/hardware_design/designs/_N4DDA7-DS/_N4DDA7-DS.srcs/sources_1/new/tri_wave.v:16]
+INFO: [Synth 8-5534] Detected attribute (* keep = "true" *) [/home/ukallakuri/hardware_design/designs/_N4DDA7-DS/_N4DDA7-DS.srcs/sources_1/new/tri_wave.v:17]
+INFO: [Synth 8-6155] done synthesizing module 'tri_wave' (2#1) [/home/ukallakuri/hardware_design/designs/_N4DDA7-DS/_N4DDA7-DS.srcs/sources_1/new/tri_wave.v:8]
+INFO: [Synth 8-6157] synthesizing module 'saw_wave' [/home/ukallakuri/hardware_design/designs/_N4DDA7-DS/_N4DDA7-DS.srcs/sources_1/new/saw_wave.v:8]
+INFO: [Synth 8-5534] Detected attribute (* keep = "true" *) [/home/ukallakuri/hardware_design/designs/_N4DDA7-DS/_N4DDA7-DS.srcs/sources_1/new/saw_wave.v:15]
+INFO: [Synth 8-5534] Detected attribute (* keep = "true" *) [/home/ukallakuri/hardware_design/designs/_N4DDA7-DS/_N4DDA7-DS.srcs/sources_1/new/saw_wave.v:16]
+INFO: [Synth 8-6155] done synthesizing module 'saw_wave' (3#1) [/home/ukallakuri/hardware_design/designs/_N4DDA7-DS/_N4DDA7-DS.srcs/sources_1/new/saw_wave.v:8]
+INFO: [Synth 8-6157] synthesizing module 'sqw_wave' [/home/ukallakuri/hardware_design/designs/_N4DDA7-DS/_N4DDA7-DS.srcs/sources_1/new/sqw_wave.v:8]
+INFO: [Synth 8-5534] Detected attribute (* keep = "true" *) [/home/ukallakuri/hardware_design/designs/_N4DDA7-DS/_N4DDA7-DS.srcs/sources_1/new/sqw_wave.v:15]
+INFO: [Synth 8-5534] Detected attribute (* keep = "true" *) [/home/ukallakuri/hardware_design/designs/_N4DDA7-DS/_N4DDA7-DS.srcs/sources_1/new/sqw_wave.v:16]
+INFO: [Synth 8-5534] Detected attribute (* keep = "true" *) [/home/ukallakuri/hardware_design/designs/_N4DDA7-DS/_N4DDA7-DS.srcs/sources_1/new/sqw_wave.v:18]
+INFO: [Synth 8-6155] done synthesizing module 'sqw_wave' (4#1) [/home/ukallakuri/hardware_design/designs/_N4DDA7-DS/_N4DDA7-DS.srcs/sources_1/new/sqw_wave.v:8]
+INFO: [Synth 8-6157] synthesizing module 'mux' [/home/ukallakuri/hardware_design/designs/_N4DDA7-DS/_N4DDA7-DS.srcs/sources_1/new/mux.v:8]
+INFO: [Synth 8-226] default block is never used [/home/ukallakuri/hardware_design/designs/_N4DDA7-DS/_N4DDA7-DS.srcs/sources_1/new/mux.v:15]
+INFO: [Synth 8-6155] done synthesizing module 'mux' (5#1) [/home/ukallakuri/hardware_design/designs/_N4DDA7-DS/_N4DDA7-DS.srcs/sources_1/new/mux.v:8]
+INFO: [Synth 8-6155] done synthesizing module 'ds_top' (6#1) [/home/ukallakuri/hardware_design/designs/_N4DDA7-DS/_N4DDA7-DS.srcs/sources_1/new/ds_top.v:8]
+INFO: [Synth 8-6157] synthesizing module 'echo_m' [/home/ukallakuri/hardware_design/designs/_N4DDA7-DS/_N4DDA7-DS.srcs/sources_1/new/echo_m.v:8]
+INFO: [Synth 8-5534] Detected attribute (* keep = "true" *) [/home/ukallakuri/hardware_design/designs/_N4DDA7-DS/_N4DDA7-DS.srcs/sources_1/new/echo_m.v:13]
+INFO: [Synth 8-5534] Detected attribute (* keep = "true" *) [/home/ukallakuri/hardware_design/designs/_N4DDA7-DS/_N4DDA7-DS.srcs/sources_1/new/echo_m.v:16]
+INFO: [Synth 8-5534] Detected attribute (* keep = "true" *) [/home/ukallakuri/hardware_design/designs/_N4DDA7-DS/_N4DDA7-DS.srcs/sources_1/new/echo_m.v:18]
+INFO: [Synth 8-6157] synthesizing module 'dp_r_b' [/home/ukallakuri/hardware_design/designs/_N4DDA7-DS/_N4DDA7-DS.srcs/sources_1/new/dp_r_b.v:9]
+INFO: [Synth 8-5534] Detected attribute (* keep = "true" *) [/home/ukallakuri/hardware_design/designs/_N4DDA7-DS/_N4DDA7-DS.srcs/sources_1/new/dp_r_b.v:18]
+INFO: [Synth 8-5534] Detected attribute (* ram_style = "block" *) [/home/ukallakuri/hardware_design/designs/_N4DDA7-DS/_N4DDA7-DS.srcs/sources_1/new/dp_r_b.v:20]
+INFO: [Synth 8-6155] done synthesizing module 'dp_r_b' (7#1) [/home/ukallakuri/hardware_design/designs/_N4DDA7-DS/_N4DDA7-DS.srcs/sources_1/new/dp_r_b.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'echo_m' (8#1) [/home/ukallakuri/hardware_design/designs/_N4DDA7-DS/_N4DDA7-DS.srcs/sources_1/new/echo_m.v:8]
+INFO: [Synth 8-6157] synthesizing module 'mux21' [/home/ukallakuri/hardware_design/designs/_N4DDA7-DS/_N4DDA7-DS.srcs/sources_1/new/mux21.v:8]
+INFO: [Synth 8-6155] done synthesizing module 'mux21' (9#1) [/home/ukallakuri/hardware_design/designs/_N4DDA7-DS/_N4DDA7-DS.srcs/sources_1/new/mux21.v:8]
+INFO: [Synth 8-6157] synthesizing module 'rc_tp_dac' [/home/ukallakuri/hardware_design/designs/_N4DDA7-DS/_N4DDA7-DS.srcs/sources_1/new/rc_tp_dac.v:8]
+	Parameter max_cnt_delayed bound to: 31'b0000000000000000000100001100011 
+INFO: [Synth 8-5534] Detected attribute (* keep = "true" *) [/home/ukallakuri/hardware_design/designs/_N4DDA7-DS/_N4DDA7-DS.srcs/sources_1/new/rc_tp_dac.v:17]
+INFO: [Synth 8-5534] Detected attribute (* keep = "true" *) [/home/ukallakuri/hardware_design/designs/_N4DDA7-DS/_N4DDA7-DS.srcs/sources_1/new/rc_tp_dac.v:18]
+INFO: [Synth 8-5534] Detected attribute (* keep = "true" *) [/home/ukallakuri/hardware_design/designs/_N4DDA7-DS/_N4DDA7-DS.srcs/sources_1/new/rc_tp_dac.v:19]
+INFO: [Synth 8-6155] done synthesizing module 'rc_tp_dac' (10#1) [/home/ukallakuri/hardware_design/designs/_N4DDA7-DS/_N4DDA7-DS.srcs/sources_1/new/rc_tp_dac.v:8]
+INFO: [Synth 8-6155] done synthesizing module 'ds_top_wrapper' (11#1) [/home/ukallakuri/hardware_design/designs/_N4DDA7-DS/_N4DDA7-DS.srcs/sources_1/new/ds_top_wrapper.v:8]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 8422.527 ; gain = 0.000 ; free physical = 677 ; free virtual = 4078
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 8422.527 ; gain = 0.000 ; free physical = 688 ; free virtual = 4077
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 8422.527 ; gain = 0.000 ; free physical = 688 ; free virtual = 4077
+---------------------------------------------------------------------------------
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/home/ukallakuri/hardware_design/designs/xdcs/timing.xdc]
+Finished Parsing XDC File [/home/ukallakuri/hardware_design/designs/xdcs/timing.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 8422.527 ; gain = 0.000 ; free physical = 607 ; free virtual = 3997
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:07 ; elapsed = 00:00:05 . Memory (MB): peak = 8422.527 ; gain = 0.000 ; free physical = 671 ; free virtual = 4061
+42 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:07 ; elapsed = 00:00:05 . Memory (MB): peak = 8422.527 ; gain = 0.000 ; free physical = 671 ; free virtual = 4061
+close_design
+launch_runs impl_1 -jobs 2
+[Mon May 11 12:55:42 2020] Launched impl_1...
+Run output will be captured here: /home/ukallakuri/hardware_design/designs/_N4DDA7-DS/_N4DDA7-DS.runs/impl_1/runme.log
+open_run impl_1
+INFO: [Netlist 29-17] Analyzing 77 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2018.3
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:00.04 ; elapsed = 00:00:00.04 . Memory (MB): peak = 8441.164 ; gain = 0.000 ; free physical = 1123 ; free virtual = 4000
+Restored from archive | CPU: 0.040000 secs | Memory: 0.646683 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00.04 ; elapsed = 00:00:00.04 . Memory (MB): peak = 8441.164 ; gain = 0.000 ; free physical = 1123 ; free virtual = 4000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 8441.164 ; gain = 0.000 ; free physical = 1124 ; free virtual = 4001
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+report_utilization -name utilization_1
+close_design
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+[Mon May 11 13:01:39 2020] Launched impl_1...
+Run output will be captured here: /home/ukallakuri/hardware_design/designs/_N4DDA7-DS/_N4DDA7-DS.runs/impl_1/runme.log
+                                                                                                                                                                                                                    

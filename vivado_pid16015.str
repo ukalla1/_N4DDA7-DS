@@ -1,0 +1,138 @@
+/*
+
+Xilinx Vivado v2018.3 (64-bit) [Major: 2018, Minor: 3]
+SW Build: 2405991 on Thu Dec  6 23:36:41 MST 2018
+IP Build: 2404404 on Fri Dec  7 01:43:56 MST 2018
+
+Process ID (PID): 16015
+License: Customer
+
+Current time: 	Fri May 08 10:11:33 EDT 2020
+Time zone: 	Eastern Standard Time (America/New_York)
+
+OS: Ubuntu
+OS Version: 5.3.0-51-generic
+OS Architecture: amd64
+Available processors (cores): 4
+
+Display: :0
+Screen size: 1920x1080
+Screen resolution (DPI): 96
+Available screens: 1
+Available disk space: 121 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	9.0.4 64-bit
+Java home: 	/tools/Xilinx/Vivado/2018.3/tps/lnx64/jre9.0.4
+Java executable location: 	/tools/Xilinx/Vivado/2018.3/tps/lnx64/jre9.0.4/bin/java
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	root
+User home directory: /root
+User working directory: /home/ukallakuri/hardware_design/designs/_N4DDA7-DS
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: /tools/Xilinx/Vivado
+HDI_APPROOT: /tools/Xilinx/Vivado/2018.3
+RDI_DATADIR: /tools/Xilinx/Vivado/2018.3/data
+RDI_BINDIR: /tools/Xilinx/Vivado/2018.3/bin
+
+Vivado preferences file location: /root/.Xilinx/Vivado/2018.3/vivado.xml
+Vivado preferences directory: /root/.Xilinx/Vivado/2018.3/
+Vivado layouts directory: /root/.Xilinx/Vivado/2018.3/layouts
+PlanAhead jar file location: 	/tools/Xilinx/Vivado/2018.3/lib/classes/planAhead.jar
+Vivado log file location: 	/home/ukallakuri/hardware_design/designs/_N4DDA7-DS/vivado.log
+Vivado journal file location: 	/home/ukallakuri/hardware_design/designs/_N4DDA7-DS/vivado.jou
+Engine tmp dir: 	./.Xil/Vivado-16015-ukallakuri-Lenovo-YOGA-910-13IKB
+
+Xilinx Environment Variables
+----------------------------
+XILINX: /tools/Xilinx/Vivado/2018.3/ids_lite/ISE
+XILINX_DSP: /tools/Xilinx/Vivado/2018.3/ids_lite/ISE
+XILINX_PLANAHEAD: /tools/Xilinx/Vivado/2018.3
+XILINX_SDK: /tools/Xilinx/SDK/2018.3
+XILINX_VIVADO: /tools/Xilinx/Vivado/2018.3
+XILINX_VIVADO_HLS: /tools/Xilinx/Vivado/2018.3
+
+
+GUI allocated memory:	154 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 799 MB
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// HMemoryUtils.trashcanNow. Engine heap size: 799 MB. GUI used memory: 46 MB. Current time: 5/8/20, 10:11:35 AM EDT
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+selectList(PAResourceQtoS.SyntheticaGettingStartedView_RECENT_PROJECTS, "/home/ukallakuri/hardware_design/designs/_N4DDA7-DS/_N4DDA7-DS.xpr", 0); // q (Q, cp)
+// bx (cp):  Open Project : addNotify
+// Opening Vivado Project: /home/ukallakuri/hardware_design/designs/_N4DDA7-DS/_N4DDA7-DS.xpr. Version: Vivado v2018.3 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: MSGMGR_REFRESH_MSG
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project /home/ukallakuri/hardware_design/designs/_N4DDA7-DS/_N4DDA7-DS.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// HMemoryUtils.trashcanNow. Engine heap size: 832 MB. GUI used memory: 44 MB. Current time: 5/8/20, 10:12:00 AM EDT
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 90 MB (+91851kb) [00:00:37]
+// [Engine Memory]: 864 MB (+754764kb) [00:00:37]
+// [GUI Memory]: 104 MB (+9937kb) [00:00:37]
+// WARNING: HEventQueue.dispatchEvent() is taking  2786 ms.
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/tools/Xilinx/Vivado/2018.3/data/ip'. 
+// Project name: _N4DDA7-DS; location: /home/ukallakuri/hardware_design/designs/_N4DDA7-DS; part: xc7a100tcsg324-1
+// [Engine Memory]: 909 MB (+1155kb) [00:00:40]
+dismissDialog("Open Project"); // bx (cp)
+// [GUI Memory]: 113 MB (+3610kb) [00:00:44]
+// Tcl Message: update_compile_order -fileset sources_1 
+// HMemoryUtils.trashcanNow. Engine heap size: 969 MB. GUI used memory: 50 MB. Current time: 5/8/20, 10:12:15 AM EDT
+// [Engine Memory]: 969 MB (+15616kb) [00:01:33]
+// HMemoryUtils.trashcanNow. Engine heap size: 970 MB. GUI used memory: 51 MB. Current time: 5/8/20, 10:42:15 AM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 953 MB. GUI used memory: 45 MB. Current time: 5/8/20, 11:12:16 AM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 952 MB. GUI used memory: 45 MB. Current time: 5/8/20, 11:42:16 AM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 952 MB. GUI used memory: 45 MB. Current time: 5/8/20, 12:12:16 PM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 952 MB. GUI used memory: 45 MB. Current time: 5/8/20, 12:42:16 PM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 952 MB. GUI used memory: 46 MB. Current time: 5/8/20, 1:12:16 PM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 952 MB. GUI used memory: 46 MB. Current time: 5/8/20, 1:42:16 PM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 952 MB. GUI used memory: 45 MB. Current time: 5/8/20, 2:12:16 PM EDT
+// WARNING: HEventQueue.dispatchEvent() is taking  6171202 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 952 MB. GUI used memory: 45 MB. Current time: 5/8/20, 4:08:46 PM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 952 MB. GUI used memory: 46 MB. Current time: 5/8/20, 4:38:46 PM EDT
+// WARNING: HEventQueue.dispatchEvent() is taking  434351 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 952 MB. GUI used memory: 46 MB. Current time: 5/8/20, 5:08:50 PM EDT
+// WARNING: HEventQueue.dispatchEvent() is taking  9794617 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 952 MB. GUI used memory: 45 MB. Current time: 5/8/20, 7:54:23 PM EDT
+// WARNING: HEventQueue.dispatchEvent() is taking  6392053 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 952 MB. GUI used memory: 45 MB. Current time: 5/8/20, 10:00:53 PM EDT

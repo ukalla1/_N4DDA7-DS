@@ -7,15 +7,15 @@ Completed static elaboration
 Starting simulation data flow analysis
 Completed simulation data flow analysis
 Time Resolution for simulation is 1ps
-Compiling module xil_defaultlib.freq_sel
-Compiling module xil_defaultlib.mux2_1
-Compiling module xil_defaultlib.freq_sel_wrapper
+Compiling module xil_defaultlib.freq_cntrl
 Compiling module xil_defaultlib.tri_wave
 Compiling module xil_defaultlib.saw_wave
 Compiling module xil_defaultlib.sqw_wave
-Compiling module xil_defaultlib.tmp_sine
 Compiling module xil_defaultlib.mux
 Compiling module xil_defaultlib.ds_top
+Compiling module xil_defaultlib.dp_r_b
+Compiling module xil_defaultlib.echo_m
+Compiling module xil_defaultlib.mux21
 Compiling module xil_defaultlib.rc_tp_dac
 Compiling module xil_defaultlib.ds_top_wrapper
 Compiling module xil_defaultlib.ds_top_wrapper_tb
