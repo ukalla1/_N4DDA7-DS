@@ -68,7 +68,7 @@ module ds_top_wrapper_tb(
         
         #((50000)/8 * period);
         echo_on = 1'b0;
-        
+//###################################################//
         #((50000)/8 * period);
         wave_select = 2'b01;
         
@@ -90,7 +90,28 @@ module ds_top_wrapper_tb(
         #((50000)/8 * period);
         echo_on = 1'b0;
 //###################################################//
-        #((100000)/8 * period);
+        #((100000)/2 * period);
+        wave_select = 2'b10;
+        
+        #((50000)/8 * period);
+        freq_select = 2'b10;
+        
+        #(100 * period);
+        inc_freq = 1'b1;
+        
+        #(2*period);
+        inc_freq = 1'b0;
+        
+        #(10 * period);
+        freq_select = 2'b00;
+        
+        #((50000)/8 * period);
+        echo_on = 1'b1;
+        
+        #((50000)/8 * period);
+        echo_on = 1'b0;
+//###################################################//
+         #((100000)/2 * period);
         wave_select = 2'b11;
         
         #((50000)/8 * period);

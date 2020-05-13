@@ -9,15 +9,15 @@ module echo_m(
     input clk,
     input rst,
     input echo_on,
-    input [7:0] aud_i,
-    (*keep = "true"*) output reg [7:0] echo_o
+    input [15:0] aud_i,
+    (*keep = "true"*) output reg [15:0] echo_o
     );
     
     (*keep = "true"*) reg echo_ctrl_i;
     
     (*keep = "true"*) reg [13:0] rd_ptr, wr_ptr;
     
-    wire [7:0] i_out;
+    wire [15:0] i_out;
     
     dp_r_b mem_i(
         .clk(clk),

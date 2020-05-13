@@ -9,11 +9,11 @@ module saw_wave(
     input clk,
     input rst,
     input [19:0] cnt_val,
-    output [7:0] saw_wave_out
+    output [15:0] saw_wave_out
 );
 
     (*keep = "true"*) reg [19:0] counter;
-    (*keep = "true"*) reg [7:0] int_counter;
+    (*keep = "true"*) reg [15:0] int_counter;
 //    (*keep = "true"*) reg [19:0] cnt_val_int;
     
     integer i;
@@ -31,7 +31,7 @@ module saw_wave(
             end
             else begin
                 counter <= 'd0;
-                if (int_counter < 'd255) begin
+                if (int_counter < 'd65535) begin
                     int_counter <= int_counter + 1'b1;
                 end
                 else begin

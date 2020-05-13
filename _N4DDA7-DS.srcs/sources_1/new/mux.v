@@ -6,9 +6,9 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 module mux(
-    input [7:0] a,b,c,
+    input [15:0] a,b,c,
     input [1:0] sel,
-    output reg [7:0] y
+    output reg [15:0] y
     );
     
     always @(*) begin

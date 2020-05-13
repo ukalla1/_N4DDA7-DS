@@ -9,13 +9,13 @@ module sqw_wave(
     input clk,
     input rst,
     input [19:0] cnt_val,
-    output [7:0] sqw_wave_out
+    output [15:0] sqw_wave_out
 );
 
     (*keep = "true"*) reg [19:0] counter;
     (*keep = "true"*) reg flag;
     wire clk_i;
-    (*keep = "true"*) reg [7:0] sqw_wave_out_r;
+    (*keep = "true"*) reg [15:0] sqw_wave_out_r;
 //    (*keep = "true"*) reg [19:0] cnt_val_int;
     
     integer i;
@@ -29,7 +29,7 @@ module sqw_wave(
             flag        <= 1'b0;
         end
         else begin
-            if (counter < cnt_val/'d32) begin
+            if (counter < cnt_val/'d512) begin
                 counter <= counter + 1'b1;
                 flag    <= flag;
             end

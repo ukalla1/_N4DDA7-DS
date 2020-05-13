@@ -13,15 +13,16 @@ module freq_cntrl(
     output [19:0] freq
     );
     
-    reg [19:0] freq_int;
+    reg [19:0] freq_int, freq_int_pipe;
     
     localparam init_freq = 32'b0000_0000_0000_0111_1010_0001_0010_0000;
     
-    assign freq             = freq_int;
+    assign freq             = freq_int_pipe;
     
     always @(posedge clk) begin
         if(rst) begin
             freq_int        <= init_freq[19:0];
+            freq_int_pipe   <= freq_int;
         end
         else begin
             if (togl) begin
@@ -40,6 +41,7 @@ module freq_cntrl(
                     freq_int    <= freq_int - 'd10;
                 end
             end
+            freq_int_pipe       <= freq_int;
         end
     end
 endmodule

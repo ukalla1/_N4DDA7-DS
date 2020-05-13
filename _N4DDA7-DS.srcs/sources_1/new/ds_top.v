@@ -11,16 +11,16 @@ module ds_top(
     input [1:0] freq_select,
     input inc_freq,
     input [1:0] wave_select,
-    output [7:0] wave_s
+    output [15:0] wave_s
     );
     
     wire [19:0] freq_const;
     
-    wire [7:0] wave_triangle, wave_square, wave_saw, wave_int_muxed;
+    wire [15:0] wave_triangle, wave_square, wave_saw, wave_int_muxed;
     
 //    wire [7:0] wave_sine;
     
-    reg [7:0] wave_internal;
+    reg [15:0] wave_internal;
     
     reg inc_freq_int;
     

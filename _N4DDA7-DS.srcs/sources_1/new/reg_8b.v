@@ -5,19 +5,24 @@
 // 
 //////////////////////////////////////////////////////////////////////////////////
 
-module mux21(
-    input [15:0] a,
-    input [15:0] b,
-    input sel,
-    output reg [15:0] y
-    );
+module reg_8b(
+    input clk,
+    input rst,
+    input [7:0] d,
+    output [7:0] out
+);
+
+    reg [7:0] flops;
     
-    always @(*) begin
-        if (sel) begin
-            y = b;
+    assign out          = flops;
+    
+    always @(posedge clk) begin
+        if(rst) begin
+            flops       <= 'd0;
         end
         else begin
-            y = a;
+            flops       <= d;
         end
     end
+
 endmodule

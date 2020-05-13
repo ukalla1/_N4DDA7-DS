@@ -17,11 +17,13 @@ proc create_report { reportName command } {
     send_msg_id runtcl-5 warning "$msg"
   }
 }
-set_param xicom.use_bs_reader 1
+set_msg_config -id {Common 17-41} -limit 10000000
 set_msg_config -id {Synth 8-256} -limit 10000
 set_msg_config -id {Synth 8-638} -limit 10000
 set_msg_config  -id {Constraints 18-5210}  -string {{WARNING: [Constraints 18-5210] No constraints selected for write.
 Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.}}  -suppress 
+set_msg_config  -id {Project 1-509}  -string {{WARNING: [Project 1-509] GeneratedRun file for 'synth_1' not found}}  -suppress 
+set_msg_config  -id {Project 1-509}  -string {{WARNING: [Project 1-509] GeneratedRun file for 'impl_1' not found}}  -suppress 
 create_project -in_memory -part xc7a100tcsg324-1
 
 set_param project.singleFileAddWarning.threshold 0
@@ -34,15 +36,15 @@ set_property target_language Verilog [current_project]
 set_property ip_output_repo /home/ukallakuri/hardware_design/designs/_N4DDA7-DS/_N4DDA7-DS.cache/ip [current_project]
 set_property ip_cache_permissions {read write} [current_project]
 read_verilog -library xil_defaultlib {
+  /home/ukallakuri/hardware_design/designs/_N4DDA7-DS/_N4DDA7-DS.srcs/sources_1/new/dp_r_b.v
   /home/ukallakuri/hardware_design/designs/_N4DDA7-DS/_N4DDA7-DS.srcs/sources_1/new/ds_top.v
-  /home/ukallakuri/hardware_design/designs/_N4DDA7-DS/_N4DDA7-DS.srcs/sources_1/new/freq_sel.v
-  /home/ukallakuri/hardware_design/designs/_N4DDA7-DS/_N4DDA7-DS.srcs/sources_1/new/freq_sel_wrapper.v
+  /home/ukallakuri/hardware_design/designs/_N4DDA7-DS/_N4DDA7-DS.srcs/sources_1/new/echo_m.v
+  /home/ukallakuri/hardware_design/designs/_N4DDA7-DS/_N4DDA7-DS.srcs/sources_1/new/freq_cntrl.v
   /home/ukallakuri/hardware_design/designs/_N4DDA7-DS/_N4DDA7-DS.srcs/sources_1/new/mux.v
-  /home/ukallakuri/hardware_design/designs/_N4DDA7-DS/_N4DDA7-DS.srcs/sources_1/new/mux2_1.v
+  /home/ukallakuri/hardware_design/designs/_N4DDA7-DS/_N4DDA7-DS.srcs/sources_1/new/mux21.v
   /home/ukallakuri/hardware_design/designs/_N4DDA7-DS/_N4DDA7-DS.srcs/sources_1/new/rc_tp_dac.v
   /home/ukallakuri/hardware_design/designs/_N4DDA7-DS/_N4DDA7-DS.srcs/sources_1/new/saw_wave.v
   /home/ukallakuri/hardware_design/designs/_N4DDA7-DS/_N4DDA7-DS.srcs/sources_1/new/sqw_wave.v
-  /home/ukallakuri/hardware_design/designs/_N4DDA7-DS/_N4DDA7-DS.srcs/sources_1/new/tmp_sine.v
   /home/ukallakuri/hardware_design/designs/_N4DDA7-DS/_N4DDA7-DS.srcs/sources_1/new/tri_wave.v
   /home/ukallakuri/hardware_design/designs/_N4DDA7-DS/_N4DDA7-DS.srcs/sources_1/new/ds_top_wrapper.v
 }

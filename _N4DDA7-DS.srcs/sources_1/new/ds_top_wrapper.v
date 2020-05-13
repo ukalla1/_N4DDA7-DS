@@ -15,9 +15,9 @@ module ds_top_wrapper(
     output wire AUD_PWM
     );
     
-    wire [7:0] wave_f_gen;
-    wire [7:0] echo_o;
-    wire [7:0] muxed_wave;
+    wire [15:0] wave_f_gen;
+    wire [15:0] echo_o;
+    wire [15:0] muxed_wave;
     
     ds_top dig_wave_gen(
         .clk(clk),

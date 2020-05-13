@@ -8,7 +8,7 @@
 module rc_tp_dac(
     input clk,
     input rst,
-    input [7:0] pwm_in,
+    input [15:0] pwm_in,
     output pwm_out
     );
     

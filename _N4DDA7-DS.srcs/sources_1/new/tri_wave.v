@@ -9,11 +9,11 @@ module tri_wave(
     input clk,
     input rst,
     input [19:0] cnt_val,
-    output [7:0] tri_wave_out
+    output [15:0] tri_wave_out
 );
 
     (*keep = "true"*) reg [19:0] counter;
-    (*keep = "true"*) reg [7:0] int_counter;
+    (*keep = "true"*) reg [15:0] int_counter;
     (*keep = "true"*) reg switch;
 //    (*keep = "true"*) reg [19:0] cnt_val_int;
     
@@ -48,7 +48,7 @@ module tri_wave(
 //            cnt_val_int <= cnt_val;
         end
         else begin
-            if (int_counter == 'd255) begin
+            if (int_counter == 'd65535) begin
                 switch <= 1'b1;
             end
             else if (int_counter == 'd0) begin
